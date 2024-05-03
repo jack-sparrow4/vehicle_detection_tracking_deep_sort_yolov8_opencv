@@ -2,7 +2,13 @@
 
 # Vehicle Detection and Counting System
 
-This project implements a vehicle detection and counting system using a combination of object detection and tracking techniques. The system can detect and track vehicles in a video stream, counting the number of vehicles entering and exiting a specified region of interest (ROI).
+This project implements a vehicle detection and counting system using a combination of object detection and tracking techniques. The system can detect vehicles using YOLOv8 or OpenCV methods and track vehicles using the Deep SORT algorithm in a video stream. It counts the number of vehicles entering and exiting a specified region of interest (ROI).
+
+## Features
+- Vehicle detection using YOLOv8 or OpenCV methods
+- Vehicle tracking using the Deep SORT algorithm
+- Counting the number of vehicles entering and exiting a specified ROI
+- Real-time processing of video streams
 
 ## Requirements
 
